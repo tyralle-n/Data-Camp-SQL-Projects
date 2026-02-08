@@ -1,0 +1,11 @@
+-- student_exam_ranking
+-- Add solution code below 
+SELECT public.student_performance.attendance, public.student_performance.hours_studied, public.student_performance.sleep_hours, public.student_performance.tutoring_sessions, 
+	DENSE_RANK() OVER(ORDER BY public.student_performance.exam_score DESC) AS exam_rank
+FROM public.student_performance
+	ORDER BY exam_rank
+	LIMIT 30;
+
+-- This is the query that I struggled with the most. This was the first time ever using a window function without
+-- a tutorial, so I really mixed up stuff. I used RANK AND PARTITION BY, instead of DENSE_RANK. 
+-- Results: this shows that there are numerous factors that impacts an exam score. 
