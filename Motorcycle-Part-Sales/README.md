@@ -1,4 +1,4 @@
-/*# Analyzing Motorcycle Part Sales
+# Analyzing Motorcycle Part Sales
 
 This project explores motorcycle part sales across multiple warehouses using SQL.
 
@@ -15,18 +15,4 @@ This project explores motorcycle part sales across multiple warehouses using SQL
 
 ## Final Query
 See `revenue_by_product_line.sql` for the full SQL solution.
-*/
 
-SELECT public.sales.product_line, TO_CHAR(date, 'Month') AS month,
-	public.sales.warehouse, SUM(total) - SUM(payment_fee) AS net_revenue
-FROM public.sales
-	WHERE client_type = 'Wholesale'
-
-	GROUP BY 
-    product_line,
-    month,
-    warehouse
-	ORDER BY 
-    product_line,
-    month,
-    net_revenue DESC;
