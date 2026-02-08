@@ -1,4 +1,5 @@
 GoodThought NGO Impact Analysis
+
 This project analyzes donation patterns and volunteer engagement for GoodThought, a fictional NGO.
 The goal is to understand how different donor groups contribute over time and identify trends that can guide future outreach strategies.
 
