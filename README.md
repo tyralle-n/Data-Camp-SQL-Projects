@@ -4,7 +4,7 @@ A collection of SQL projects completed on Data Camp, showcasing practical data a
 # 1. Analysing Students Mental Health:
 https://github.com/tyralle-n/Data-Camp-SQL-Projects/tree/main/Analysing-Students-Mental-Health
 # 2. Analysing Motorcycle Part Sales:
-
+https://github.com/tyralle-n/Data-Camp-SQL-Projects/tree/main/Motorcycle-Part-Sales
 # 3. Impact Analysis of GoodThought NGO Initiatives:
 
 # 4. Factors that Affect Student Performance:
