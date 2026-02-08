@@ -1,0 +1,14 @@
+SELECT a.assignment_name,
+       a.region,
+       ROUND(SUM(d.amount), 2) AS rounded_total_donation_amount,
+       donors.donor_type
+FROM public.assignments AS a
+INNER JOIN public.donations AS d
+  ON d.assignment_id = a.assignment_id
+INNER JOIN public.donors AS donors
+  ON donors.donor_id = d.donor_id
+GROUP BY a.assignment_name, a.region, donors.donor_type
+ORDER BY rounded_total_donation_amount DESC
+LIMIT 5;
+
+	
