@@ -6,5 +6,5 @@ https://github.com/tyralle-n/Data-Camp-SQL-Projects/tree/main/Analysing-Students
 # 2. Analysing Motorcycle Part Sales:
 https://github.com/tyralle-n/Data-Camp-SQL-Projects/tree/main/Motorcycle-Part-Sales
 # 3. Impact Analysis of GoodThought NGO Initiatives:
-
+https://github.com/tyralle-n/Data-Camp-SQL-Projects/tree/main/GoodThought-NGO-Impact-Analysis
 # 4. Factors that Affect Student Performance:
